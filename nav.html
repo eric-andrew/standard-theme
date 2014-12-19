@@ -1,0 +1,37 @@
+<nav id="standard-nav" role="navigation">
+				
+    <button id="menu-toggle" class="theme-button">
+        <i class="fa fa-bars"></i>
+    </button>
+
+    <div class="container">
+
+        <form id="search-form" method="get" role="search" action="<?php echo home_url( '/' ); ?>">
+            <div class="form-group">
+            <input type="search" name="s" id="s" placeholder="">
+            <i class="fa fa-search"></i>
+            </div>
+        </form>
+
+        <div class="site-branding">
+            <img id="logo-space" src="<?php bloginfo('template_directory'); ?>/images/sap.png" alt="">
+            <a class="site-title" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+        </div><!-- .site-branding -->
+
+        <ul class="standard-nav-menu">
+            <?php wp_list_pages('&title_li='); ?>
+
+            <li>
+                <a href="#">Categories</a>
+                <ul class="standard-dropdown">
+                    <li><a href="#">link</a></li>   
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Tags</a>
+            </li>
+        </ul>
+
+    </div><!--.container-->
+</nav>
