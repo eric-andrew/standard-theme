@@ -1,1 +1,6 @@
-the beginnings of a code base i'm building to jump start projects with custom jquery, less variables and mixins. 
+##Boilerplate code using jquery and sass.
+####With help from
+*[Bootstrap](http://getbootstrap.com)
+*[Zurb Foundation] (http://foundation.zurb.com)
+*[Skeleton] (http://getskeleton.com)
+*[Normalize] (https://github.com/necolas/normalize.css/)

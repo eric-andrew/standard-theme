@@ -1,12 +1,12 @@
-@nav-height: 40px;
-@nav-item-spacing: @nav-height /2;
-@borders-bg-gray: #333;
+$nav-height: 40px;
+$nav-item-spacing: $nav-height /2;
+$borders-bg-gray: #333;
 
 #standard-nav {
   display: block;
-  background-color: @borders-bg-gray;
-  line-height: @nav-height;
-  margin-bottom: @nav-item-spacing;
+  background-color: $borders-bg-gray;
+  line-height: $nav-height;
+  margin-bottom: $nav-item-spacing;
   text-align: center;
 
   #menu-toggle {
@@ -17,7 +17,7 @@
 
     i {
       font-size: 20px;
-      color: @white;
+      color: $white;
     }
   }
 
@@ -39,12 +39,12 @@
 
       a {
         text-decoration: none;
-        color: @standard-link-color;
-        padding: @nav-item-spacing;
+        color: $standard-link-color;
+        padding: $nav-item-spacing;
 
         &:hover {
           text-decoration: none;
-          color: @standard-link-hover-color;
+          color: $standard-link-hover-color;
         }
       }
 
@@ -54,8 +54,8 @@
         position: absolute;
         left: 0;
         z-index: 9999;
-        background-color: @white;
-        border: 1px solid @borders-bg-gray;
+        background-color: $white;
+        border: 1px solid $borders-bg-gray;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
         min-width: 180px;
         overflow: hidden;
@@ -63,7 +63,7 @@
 
         li {
           display: block;
-          line-height: @nav-height - 10;
+          line-height: $nav-height - 10;
 
           a {
             color: #333;
@@ -73,7 +73,7 @@
 
             &:hover {
               text-decoration: none;
-              color: @standard-link-hover-color;
+              color: $standard-link-hover-color;
             }
           }
         }
@@ -84,7 +84,7 @@
   .open {
     position: absolute;
     top: 0; left: 0;
-    background-color: @borders-bg-gray;
+    background-color: $borders-bg-gray;
     z-index: 999;
     width: auto;
     height: 100%;
