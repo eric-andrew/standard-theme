@@ -1,6 +1,8 @@
 $nav-height: 40px;
 $nav-item-spacing: $nav-height /2;
 $borders-bg-gray: #333;
+$standard-link-color: #0000ff;
+$standard-link-hover-color: darken($standard-link-color, 10%);
 
 #standard-nav {
   display: block;
@@ -96,8 +98,3 @@ $borders-bg-gray: #333;
   }
 }
 
-@media screen (max-width: 1000px) {
-  #menu-toggle {
-    display: block;
-  }
-}

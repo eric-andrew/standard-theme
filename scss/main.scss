@@ -1,12 +1,12 @@
 // global config
 @import "config/normalize"; 
-@import "config/standards";
 @import "config/variables"; 
 @import "config/mixins";
+@import "config/standards";
 
 // font-awesome
-$fa-font-path: "../fonts";
-@import "vendor/font-awesome/scss/font-awesome.scss";
+// $fa-font-path: "../fonts";
+// @import "vendor/font-awesome/scss/font-awesome.scss";
 
 //* Site structure 
-@import "site/header";
+@import "nav";

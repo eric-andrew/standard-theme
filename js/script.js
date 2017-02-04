@@ -5,7 +5,7 @@
         const navBar = document.getElementById('standard-nav');
         const body = document.querySelector('body');
         const darkTheme = 'dark-theme';
-
+        
         if (window.scrollY >= 250 && !body.classList.contains(darkTheme)) {
             body.classList.add(darkTheme);
             e.preventDefault();

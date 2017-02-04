@@ -1,0 +1,31 @@
+// Colors
+$white: #fff; 
+$black: #000; 
+$light-grey: #e1e1e1 !default;
+$dark-grey: #333 !default;
+$primary-color: #33c3f0 !default;
+$secondary-color: lighten($dark-grey, 13.5%) !default;
+$border-color: #bbb !default;
+$link-color: #1eaedb !default;
+$font-color: #222 !default;
+
+// Typography
+$font-size: 16px;
+$font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-weight: 300 !default; 
+$heading-font-weight: 300 !default; 
+
+$h1-font-size: rem-calc(44);
+$h2-font-size: rem-calc(37);
+$h3-font-size: rem-calc(27);
+$h4-font-size: rem-calc(23);
+$h5-font-size: rem-calc(18);
+$h6-font-size: 1rem;
+
+//Grid Variables
+$container-width: 1170px !default;
+$total-columns: 12 !default;
+$gutter: 30px !default; 
+
+// Misc
+$global-radius: 4px !default;
